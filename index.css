@@ -1,0 +1,236 @@
+#root {
+  margin-top: 35px;
+}
+
+.weather-info-text {
+  margin: 0;
+}
+
+.tabs {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.tab-components {
+    margin: 10px;
+    border: 1px solid white;
+    background: #000000de;
+    border-radius: 9px;
+}
+
+.tab-options {
+  display: flex;
+  width: 300px;
+  margin: 0;
+  padding: 0;
+}
+
+.tab-option {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid white;
+  width: 100%;
+  list-style-type: none;
+}
+
+.tab-option:hover {
+  background-color: white;
+  color:black;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  cursor: pointer;
+}
+
+#tab-content {
+  display: flex;
+  padding-left: 0px;
+  width: 300px;
+  height: 230px;
+  padding-top: 10px;
+  margin: 0 0 7px 0;
+  padding-top: 1px;
+  flex-direction: column;
+}
+
+.clock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Chakra Petch', sans-serif;
+  color: white;
+}
+
+.clock-components {
+  display: flex;
+  width: 622px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid white;
+  border-radius: 9px;
+  background-color: #010e1ede;
+}
+
+.clock-title {
+  font-size: 100px;
+  margin: 10px;
+}
+
+.time {
+  font-size: 50px;
+}
+
+body {
+  background: url("https://vignette.wikia.nocookie.net/va11halla/images/b/b2/Glitch_City.png/revision/latest?cb=20161221162706");
+  background-size: cover;
+}
+
+#weather {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  font-family: 'Chakra Petch', sans-serif;
+  color: white;
+}
+
+.weather-components {
+  display: flex;
+  align-items: center;
+  width: 618px;
+  height: 98px;
+  border: 1px solid white;
+  background: #000000de;
+  border-radius: 9px;
+}
+
+.weather-city {
+  display: flex;
+  justify-content: center;
+  font-size: 29px;
+  padding: 1px 25px;
+}
+
+.weather-city-div {
+  width: 311px;
+  height: 98px;
+  border-right: 1px solid white;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+
+.weather-info {
+  width: 320px;
+  height: 98px;
+  display: flex;
+  font-size: 18px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+
+#weather-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.loading-words {
+  margin-left: 19px;
+  margin-top: 19px;
+}
+
+.autocomplete {
+  font-family: 'Chakra Petch',
+  sans-serif;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.autocomplete-components {
+  width: 300px;
+  height: 280px;
+  margin: 10px;
+  border: 1px solid white;
+  background: #000000de;
+  border-radius: 9px;
+}
+
+.tab-and-auto {
+  display: flex;
+  justify-content: center;
+}
+
+.input-field {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 40px;
+  border-bottom: 1px solid white;
+}
+
+.input-box {
+  width: 200px;
+  height: 20px;
+  margin-top: 7px;
+  background: black;
+  border: 1px solid white;
+  color: white;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 15px;
+  outline: none;
+  padding: 2px;
+  border-radius: 5px;
+  adding-left: 6px;
+}
+
+.rain {
+  background: url('images/rainy.gif');
+}
+
+.snow {
+  background: url('images/snowy.gif');
+}
+
+.clear {
+  background: url('images/clear.gif');
+}
+
+.cloudy {
+  background: url('images/cloudy.gif');
+}
+
+.links {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.directories {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  margin-left: 69px;
+  list-style: square;
+}
+
+.content {
+  margin-left: 49px;
+  list-style: square;
+}
