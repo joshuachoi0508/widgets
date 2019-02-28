@@ -474,7 +474,7 @@ function (_React$Component) {
     value: function getWeather(location) {
       var _this2 = this;
 
-      var requestUrl = "http://api.openweathermap.org/data/2.5/weather?lat=".concat(location.coords.latitude, "&lon=").concat(location.coords.longitude, "&APPID=6521b0c96b0603fa027407eb1cd6ad28");
+      var requestUrl = "https://api.openweathermap.org/data/2.5/weather?lat=".concat(location.coords.latitude, "&lon=").concat(location.coords.longitude, "&APPID=6521b0c96b0603fa027407eb1cd6ad28");
       var xmlhttp = new XMLHttpRequest();
 
       xmlhttp.onreadystatechange = function () {
