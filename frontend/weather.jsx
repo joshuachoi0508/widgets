@@ -15,7 +15,7 @@ class Weather extends React.Component {
     }
 
     getWeather(location) {
-        let requestUrl = `http://api.openweathermap.org/data/2.5/weather?lat=${location.coords.latitude}&lon=${location.coords.longitude}&APPID=6521b0c96b0603fa027407eb1cd6ad28`;
+        let requestUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${location.coords.latitude}&lon=${location.coords.longitude}&APPID=6521b0c96b0603fa027407eb1cd6ad28`;
         const xmlhttp = new XMLHttpRequest();
 
         xmlhttp.onreadystatechange = () => {
