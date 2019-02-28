@@ -102,7 +102,7 @@ body {
 .weather-components {
   display: flex;
   align-items: center;
-  width: 618px;
+  min-width: 618px;
   height: 98px;
   border: 1px solid white;
   background: #000000de;
