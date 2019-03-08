@@ -570,6 +570,21 @@ function (_React$Component) {
           }, weather.weather[0].description));
         }
 
+        if (weatherId >= 701 && weatherId <= 781) {
+          weatherCityDiv = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+            className: "weather-city-div atmosphere"
+          }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+            className: "weather-city"
+          }, weather.name));
+          weatherCityInfoDiv = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+            className: "weather-info atmosphere"
+          }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+            className: "weather-info-text"
+          }, temp.toFixed(1), " degrees"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+            className: "weather-info-text"
+          }, weather.weather[0].description));
+        }
+
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           id: "weather"
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {

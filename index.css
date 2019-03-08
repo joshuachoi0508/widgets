@@ -216,6 +216,11 @@ body {
   background: url('images/cloudy.gif');
 }
 
+.atmosphere {
+  background: url('images/atmosphere.gif');
+  background-size: cover;
+}
+
 .links {
   color: white;
   text-decoration: none;

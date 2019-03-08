@@ -82,6 +82,16 @@ class Weather extends React.Component {
                 </div>
             }
 
+            if (weatherId >= 701 && weatherId <= 781) {
+                weatherCityDiv = <div className="weather-city-div atmosphere">
+                    <p className="weather-city">{weather.name}</p>
+                </div>
+                weatherCityInfoDiv = <div className="weather-info atmosphere">
+                    <p className="weather-info-text">{temp.toFixed(1)} degrees</p>
+                    <p className="weather-info-text">{weather.weather[0].description}</p>
+                </div>
+            }
+
             return (
                 <div>
                     <div id="weather">
