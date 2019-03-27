@@ -1,7 +1,3 @@
-#root {
-  margin-top: 35px;
-}
-
 .weather-info-text {
   margin: 0;
 }
@@ -90,6 +86,9 @@ body {
   background: url("https://vignette.wikia.nocookie.net/va11halla/images/b/b2/Glitch_City.png/revision/latest?cb=20161221162706");
   background-size: cover;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #weather {
