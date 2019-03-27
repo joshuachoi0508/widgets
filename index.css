@@ -89,6 +89,7 @@
 body {
   background: url("https://vignette.wikia.nocookie.net/va11halla/images/b/b2/Glitch_City.png/revision/latest?cb=20161221162706");
   background-size: cover;
+  width: 100vh;
 }
 
 #weather {
